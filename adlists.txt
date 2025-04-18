@@ -1,0 +1,8 @@
+https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/pro.txt
+https://urlhaus.abuse.ch/downloads/hostfile/
+https://v.firebog.net/hosts/Prigent-Crypto.txt
+https://lists.cyberhost.uk/malware.txt
+https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day_dga/adblock/nrd-30day-dga_adblock_part1.txt
+https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day_dga/adblock/nrd-30day-dga_adblock_part2.txt
+https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part1.txt
+https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part2.txt
