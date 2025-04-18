@@ -29,10 +29,15 @@ sudo apt install -y \
     mc \
     btop
 
-# Install Neovim from PPA
-sudo add-apt-repository ppa:neovim-ppa/stable -y
-sudo apt update
-sudo apt install -y neovim
+# Install Neovim - pre-compiled version
+install_precompiled() {
+    echo "Installing pre-compiled version..."
+    curl -LO https://github.com/neovim/neovim/releases/download/v0.11.0/nvim-linux-x86_64.tar.gz
+    tar xzvf nvim-linux-x86_64.tar.gz
+    sudo cp -f -r nvim-linux-x86_64/* /usr/local/
+    rm -rf nvim-linux-x86_64.tar.gz nvim-linux-x86_64
+}
+install_precompiled
 
 # Install LazyVIM Neovim configuration
 if [ -d ~/.config/nvim ]; then
